@@ -1,0 +1,133 @@
+Program1:
+**********
+class Helloworld {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
+
+Output:
+*******
+Hello world
+
+
+Program2;
+**********
+import java.util.Scanner;
+  public class condition{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter an integer:");
+        int n = sc.nextInt();
+        if(n%2!=0){
+             System.out.println("Weird");
+    }else if (n%2==0){
+           if (2<=n && n<=5){
+               System.out.println("Not Weird");
+        }else if(6<=n && n<=20){
+        System.out.println("Weird");
+        }else if (n<20){
+            System.out.println("Not Weird");
+        }  
+     }       
+   }
+}
+
+Expected output:
+****************
+Enter an integer:
+4
+Not Weird
+
+
+Program3:
+*********
+import java.util.Scanner;
+public class stdinout{
+    public static void main(String args[]){
+        Scanner i=new Scanner(System.in);
+        Scanner d=new Scanner(System.in);
+        Scanner b=new Scanner(System.in);
+        System.out.println("Enter the data:");
+        int num = i.nextInt();
+        Double number = d.nextDouble();
+        String data = b.nextLine();  
+        System.out.println("Number:"+num);
+        System.out.println("String:"+data);
+        System.out.println("Double:"+number);
+        }
+}
+Expected output:
+*****************
+Enter an Integer
+42
+Enter a Double
+107.3668
+Enter a String
+happy learning!
+String:happy learning!
+Double:107.3668
+Int:42
+
+
+Program4:
+***********
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            int x=sc.nextInt();
+         double y=sc.nextDouble();
+        String s=sc.nextLine();
+        s=sc.nextLine();
+        System.out.println("String:"+s);
+        System.out.println("Double:"+y);
+        System.out.println("Int: "+x);
+    }
+}
+Expected output:
+******************
+67
+55.555
+divya
+String:divya
+Double:55.555
+Int: 67
+
+Program5:
+***********
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        if(N>=2||N<=20){
+            for(int i=1;i<=10;i++){
+                
+                System.out.println(N+" x "+i+" = "+N*i );
+            }
+        }
+    }
+}
+
+Expected output:
+******************
+2×1= 2
+2×2= 4
+2×3= 6
+2×4= 8
+2×5=  10
+2×6=  12
+2×7=  14
+2×8=  16
+2×9=  18
+2×10= 20
+
