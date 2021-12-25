@@ -1,0 +1,273 @@
+Program1:
+*********
+import java.util.*;
+import java.text.*;
+
+  public class currency {
+
+    public static void main(String[ ] args) {
+        Scanner scanner=new Scanner(System.in);
+        double payment=scanner.nextDouble( )
+        scanner.close( );
+        String india=NumberFormat.getCurrencyInstance(new Locale("en")).format(payment);
+        String france=NumberFormat.getCurrencyInstance(Locale.FRANCE).format(payment);
+        String us=NumberFormat.getCurrencyInstance(Locale.US).format(payment);
+        String china=Number.getCUrencyInstance(LOcale.CHINA).format(payment);
+        System.out.println("US: " + us);
+        System.out.println("India: " + india);
+        System.out.println("China: " + china);
+        System.out.println("France: " + france);
+     } 
+ }
+ 
+Expected output:
+*****************
+//55
+//US: $55. 00
+//India: ?55. 00
+//China: ¥55. 00
+//France: 55,00 ?
+
+
+Program2:
+**********
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java math.*;
+import java.util.regex.*;
+
+       public class End {
+          public static void main(String[ ] args)  {
+               String s="Hello World\nI a, a file\nRead me until end of file*;
+               Scanner sc=new Scanner(s);
+               for (int i=1; sc.hasNext( ); i++ )
+                  System.out.println(i+ " "+sc.nextline( ) ) ;
+                  }
+               }
+
+
+Expected output:
+****************
+//1 Hello World
+//2 I am a file
+//3 Read me until end of file
+
+
+Program3:
+**********
+import java.math.a8;
+import java.java.util.Scanner;
+public class Intializer
+{
+  static int b,h;
+  static
+  {
+  Scanner sc = new Scanner(System.in);
+  b=sc.nextInt( );
+  h=sc.nextInt( );
+  }
+  pub;ic static void main(String args[ ] )
+  {
+   if(b>=-100 && b<=100)
+      {
+        if(h>=-100 && h<100)
+        {
+        system.out.println(b*h);
+        }
+    }
+    else
+    {
+      System.out.println("java.lang.Exception:breadth and height must be positive");
+     }
+ }
+}
+
+Expected output:
+****************
+//567 78
+//java.lang.Exception:breadth and height must be positive
+
+
+Program4:
+**********
+import java,util.Scanner;
+class integer
+{
+public statuic void main(String[ ] args)
+   {
+     int n;
+       try {
+          Scanner sc= new Scanner(System.in);
+          n= sc.nextInt( );
+          String s= String.valueOf(n);
+          System.out.println("Good job");
+          sc.close( );
+          }
+          catch(Exception e)
+         {
+          System.out.println("Wrong Answer");
+         }
+     }
+}
+
+Expected output:
+****************
+//13 64
+//Good job
+
+
+Program5:
+**********
+import java.util.*;
+import java.io.*;
+
+     class Solution{
+           public stastic void main(String[ ] arg)
+           {
+                 Scanner sc=new Scanner(System.in);
+                 int t=sc . nextInt( );
+                 for(int i=0;i<t;i++0)
+                 {
+                    try
+                    {
+                        long x=sc.nextLong( );{
+                        System.out.println(x=' can be fitted in:");
+                        if(x>=-128&&x<=127)System.out.println("*byte");
+                        if(x>=-32768&&x<=32768)
+                        System.out.println("*Short");
+                        if(x>=-2147483648&&x<=2147483647)
+                        System.out.println("*Integer");
+                        }
+                        System.out.println("*Long");
+                        }
+                        catch(Exception e)
+                       {
+                            System.out.println(sc.next( )+"cant be fitted anywhere.");
+                        }
+                  }
+               }
+           }
+
+Expected output:
+****************
+//5
+//5 can be fitted in:
+//*byte
+//*Short
+//*Longer
+//67890876
+//67890876 can be fitted in:
+//*Integer
+//*Long
+//76549876509
+//76549876509 can be fitted in:
+//*Long
+//123456789
+//123456789 can be fitted in:
+//*Integer
+//*Long
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
