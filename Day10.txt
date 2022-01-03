@@ -1,0 +1,304 @@
+import java.util.Scanner;
+public class Keerthana{
+public static void main(String[] args){
+Scanner sc =new Scanner (System.in);
+String str = "Beautiful girl";
+System.out.println("String:" +str);
+int length = str.length();
+System.out.println("Length: "+ length);
+}
+}
+output
+****
+C:\Users\LENOVO\Documents>java Keerthana
+String:Beautiful girl
+Length: 14
+
+
+import java.util.Scanner;
+public class.Kunny{
+public static void main(String[] args){
+String str = " divya";
+System.out.println(str.length());
+}
+}
+output
+*****
+:\Users\LENOVO\Documents>javac Kunny.java
+
+C:\Users\LENOVO\Documents>java Kunny
+10
+
+import java.util.Scanner;
+public class Raafia{
+public static void main(String[] args){
+String str = "Going to College";
+int Count = 0;
+for(int i=0;i<=str.length()-1;i++){
+if(str.charAt(i) == 't'){
+Count ++;
+}
+}
+System.out.println("Frequency of t is: "+Count);
+}
+}
+output
+****
+Frequency of t is:1
+
+
+import java.util.Scanner;
+public class Compare{
+public static void main(String[] args){
+String s1="Rama";
+String s2="";
+String s3="sita";
+System.out.println(s1.compareTo(s2));
+System.out.println(s2.compareTo(s3));
+}
+}
+
+output
+****
+:\Users\LENOVO\Documents>javac Compare.java
+
+C:\Users\LENOVO\Documents>java Compare
+4
+-4
+
+
+import java.util.Scanner;
+public class Compareexample{
+public static void main(String[] args){
+// input String in Uppercase
+String str1 = new String("I LOVE MY FAMILY");
+//input String to lowercase
+String str2 = new String("i love my family");
+System.out.println(str1.compareTo(str2));
+}
+}
+output
+******
+C:\Users\LENOVO\Documents>javac Compareexample.java
+
+C:\Users\LENOVO\Documents>java Compareexample
+-32
+
+
+import java.io.*;
+import java.util.*;
+public class Containsexample
+{
+public static void main(String[] args)
+{
+String name = "Tell me the truth";
+System.out.println(name.contains("me"));
+System.out.println(name.contains("the"));
+System.out.println(name.contains("bindu"));
+}
+}
+output
+****
+
+C:\Users\M DIVYA\Documents>javac Containsexample.java
+
+C:\Users\M DIVYA\Documents>java Containsexample
+true
+true
+false
+
+
+import java.io.*;
+import java.util.*;
+public class Examplemethod{
+public static void mian(String[] args){
+String s1 = "This is indexOf method";
+int index = s1.indexOf("method");
+System.out.println("index of substring "+index);
+}
+}
+output
+****
+index of substring 16
+
+
+import java.util.Scanner;
+public class Lengthexample{
+public static void main(String[] args){
+String str = "Going to College";
+int Count = 0;
+for(int i=0;i<=str.length()-1;i++){
+if(str.charAt(i) == 't'){
+Count ++;
+}
+}
+System.out.println("Frequency of t is: "+Count);
+}
+}
+output
+****
+C:\Users\DELL\Documents>javac day10.java
+
+C:\Users\DELL\Documents>java day10
+Frequency of t is: 1
+
+
+import java.util.Scanner;
+public class Letmethod{
+public static void main(String[] args){
+String s1="JAVATPOINT HELLO DIVYA";
+String s1lower=s1.toLowerCase();
+System.out.println(s1lower);
+}
+}
+output
+****
+:\Users\M DIVYA\Documents>javac Letmethod.java
+
+C:\Users\M DIVYA\Documents>java Letmethod
+javatpoint hello divya
+
+
+import java.util.Scanner;
+public class Marks
+ {  
+    public static void main(String[] args) {  
+        String str = "Welcome to Javatpoint portal";          
+        for (int i=0; i<=str.length()-1; i++) {  
+            if(i%2!=0) {  
+                System.out.println("Char at "+i+" place "+str.charAt(i));  
+            }  
+        }  
+    }  
+} 
+output
+*******
+C:\Users\DELL\Documents>javac Marks.java
+
+C:\Users\DELL\Documents>java Marks
+Char at 1 place e
+Char at 3 place c
+Char at 5 place m
+Char at 7 place
+Char at 9 place o
+Char at 11 place J
+Char at 13 place v
+Char at 15 place t
+Char at 17 place o
+Char at 19 place n
+Char at 21 place
+Char at 23 place o
+Char at 25 place t
+Char at 27 place l
+
+
+import java.util.Scanner;
+public class Rubber{
+    public static void main(String[] args) {  
+        String str = "Welcome to Javatpoint.com";  
+        System.out.println(str.endsWith("point"));  
+        if(str.endsWith(".com")) {  
+            System.out.println("String ends with .com");  
+        }else System.out.println("It does not end with .com");  
+    }
+}  
+\DELL\Documents>javac Rubber.java
+
+C:\Users\DELL\Documents>java Rubber
+false
+String ends with .com
+
+
+import java.io.*;
+import java.util.*;
+public class Stringjoin{
+public static void main(String[] args){
+String joinString1=String.join("-","Java" ,"is"," a", "easy");
+System.out.println(joinString1);
+}
+}
+output
+****
+C:\Users\M DIVYA\Documents>javac Stringjoin.java
+
+C:\Users\M DIVYA\Documents>java Stringjoin
+Java-is- a-easy
+
+
+
+import java.io.*;
+import java.util.*;
+public class Stringjoin1{
+public static void main(String[] args){
+String date = String.join("/","20","12","94");
+System.out.println(date);
+String time = String.join(":","12","6","45");
+System.out.println("" +time);
+}
+}
+output
+****
+C:\Users\M DIVYA\Documents>javac Stringjoin1.java
+
+C:\Users\M DIVYA\Documents>java Stringjoin1
+20/12/94
+12:6:45
+
+
+import java.util.Scanner;
+public class Techinques{
+public static void main(String[] args){
+Scanner sc =new Scanner(System.in);
+String name="The Hacker";
+String sf1=String.format("name is%s",name);
+String sf2=String.format("value is%f",42.85564);
+String sf3=String.format("value is%f",70.54964);
+System.out.println(sf1);
+System.out.println(sf2);
+System.out.println(sf3);
+}
+}
+output
+*****
+output
+*****
+C:\Users\LENOVO\Documents>java Techinques
+name isThe Hacker
+value is42.855640
+value is70.549640
+
+import java.io.*;
+import java.util.*;
+public class Trim1{
+public static void main(String[] args){
+String s1 =" i am learning java ";
+System.out.println(s1.length());
+System.out.println(s1);
+String tr = s1.trim();
+System.out.println(tr.length());
+System.out.println(tr);
+}
+}
+
+output
+****
+20
+ i am learning java
+18
+i am learning java
+
+
+public class Valueof1{
+public static void main(String[] args){
+boolean bol = true;
+boolean bol2 = false;
+String s1 = String.valueOf(bol);
+String s2 = String.valueOf(bol2);
+System.out.println(s1);
+System.out.println(s2);
+}
+}
+output
+****
+true
+false
